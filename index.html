@@ -1,50 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="el" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Regular Expressions</title>
   </head>
   <body>
-   <p>
-    <code class="codecopy">\s*\\\[\s*([\s\S]*?)\s*\\\][ \t]*\n?</code><br>
-    <code class="codecopy">\n\[\n$1\n\]\n</code>
-  </p>
 
-  <p>
-  <code class="codecopy">\s*\\begin\{equation\}\s*([\s\S]*?)\s*\\end\{equation\}[ \t]*\n?</code><br>
-  <code class="codecopy">\n%\n\begin{equation}\n$1\n\end{equation}\n%\n</code>
-  </p>
-    <p>
-    <code class="codecopy">\s*\\begin\{(.*?)\}\s*([\s\S]*?)\s*\\end\{$1\}[ \t]*\n?</code><br>
-    <code class="codecopy">\n%\n\begin{$1}\n$2\n\end{$1}\n</code>
-    </p>
-
-    <script>
-var inputElements = document.querySelectorAll(".codecopy");
-
-for (var i = 0; i < inputElements.length; i++) {
-  inputElements[i].addEventListener('click', function() {
-    copyText(this);
-  });
-}
-
-// To get the copy to clipboard functionality you need to create an input field
-function copyText(element) {
-
-    var textToCopy = element.innerText;
-
-    var myTemporaryInputElement = document.createElement("input");
-    myTemporaryInputElement.type = "text";
-    myTemporaryInputElement.value = textToCopy;
-
-    document.body.appendChild(myTemporaryInputElement);
-
-    myTemporaryInputElement.select();
-    document.execCommand("Copy");
-
-    document.body.removeChild(myTemporaryInputElement);
-
-}
-</script>
+   <h1>Το ολοκλήρωμα Riemman</h1>
+<p>Έστω ότι $\int_a^b f(x)\, dx$ </p>
   </body>
 </html>
