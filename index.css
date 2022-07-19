@@ -1,0 +1,31 @@
+html {
+  font-size:1rem;
+}
+
+.list-group-item {
+    display: list-item;
+    padding-left: 10px;
+}
+
+.foundit{
+    color: #155724;
+    background-color: #b1dfbb;
+}
+
+.container.body-container {
+    padding: 0px 10px;
+}
+
+ul.nav > li > a{
+  text-decoration: none;
+  color : var(--gray-dark);
+}
+
+.footer
+{
+    height: 100vh;
+    margin-bottom: 0rem;
+    padding: 2rem 5rem;
+    background-color: #e9ecef;
+    width: 100%;
+}
