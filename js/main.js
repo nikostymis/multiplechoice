@@ -1,5 +1,5 @@
-import dataObject from '/js/dataObject.js';
-import {KaTeXmarkUp, renderAllMath} from '/js/parse-render.js';
+import dataObject from './dataObject.js';
+import {KaTeXmarkUp, renderAllMath} from './parse-render.js';
 
 $(document).ready(function(){
 

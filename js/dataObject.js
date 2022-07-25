@@ -1,4 +1,4 @@
-import rawData from '/js/data.js';
+import rawData from './data.js';
 
 const dataObject = {
 
